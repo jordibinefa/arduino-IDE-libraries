@@ -1,0 +1,68 @@
+#######################################
+# Syntax Coloring Map For Test
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+nPinP1B7	KEYWORD1
+nPinP1B6	KEYWORD1
+nPinP1B5	KEYWORD1
+nPinP1B4	KEYWORD1
+nPinP1B3	KEYWORD1
+nPinP1B2	KEYWORD1
+nPinP1B1	KEYWORD1
+nPinP1B0	KEYWORD1
+nPinP2B7	KEYWORD1
+nPinP2B6	KEYWORD1
+nPinP2B5	KEYWORD1
+nPinP2B4	KEYWORD1
+nPinP2B3	KEYWORD1
+nPinP2B2	KEYWORD1
+nPinP2B1	KEYWORD1
+nPinP2B0	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setupHighNibbleP1	KEYWORD2
+setupLowNibbleP1	KEYWORD2
+setupHighNibbleP2	KEYWORD2
+setupLowNibbleP2	KEYWORD2
+vWriteLowNibbleP1	KEYWORD2
+vWriteHighNibbleP1Raw	KEYWORD2
+vWriteHighNibbleP1	KEYWORD2
+vWriteP1	KEYWORD2
+vWriteLowNibbleP2	KEYWORD2
+vWriteHighNibbleP2Raw	KEYWORD2
+vWriteHighNibbleP2	KEYWORD2
+vWriteP2	KEYWORD2
+byReadNibble	KEYWORD2
+byReadLowNibbleP1	KEYWORD2
+byReadHighNibbleP1	KEYWORD2
+byReadHighNibbleP1Raw	KEYWORD2
+byReadP1	KEYWORD2
+byReadLowNibbleP2	KEYWORD2
+byReadHighNibbleP2	KEYWORD2
+byReadHighNibbleP2Raw	KEYWORD2
+byReadP2	KEYWORD2
+vUltrasonicSensorP1b0b1_init	KEYWORD2
+vUltrasonicSensorP1b2b3_init	KEYWORD2
+vUltrasonicSensorP2b0b1_init	KEYWORD2
+vUltrasonicSensorP2b2b3_init	KEYWORD2
+nUltrasonicSensorDistanceCm	KEYWORD2
+nUsDistanceCmP1b0b1	KEYWORD2
+nUsDistanceCmP1b2b3	KEYWORD2
+nUsDistanceCmP2b0b1	KEYWORD2
+nUsDistanceCmP2b2b3	KEYWORD2
+
+######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
