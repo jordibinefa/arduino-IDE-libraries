@@ -1,0 +1,68 @@
+########################################
+# Syntax Coloring Map For RobotController
+########################################
+#
+# Fields (Data Members) - KEYWORD2
+# Methods (Member Functions)
+#  - FUNCTION2 (or KEYWORD2)
+# Constants - LITERAL2
+# Datatypes - KEYWORD5 (or KEYWORD1)
+########################################
+
+RobotController KEYWORD1 RobotController
+
+########################################
+# Methods and Functions
+#   (FUNCTION2 or KEYWORD2)
+########################################
+
+RobotBegin                      KEYWORD2
+front         				    KEYWORD2
+right         	     			KEYWORD2
+left         	          	 	KEYWORD2
+back	                      	KEYWORD2
+frontRight						KEYWORD2
+backRight						KEYWORD2
+frontLeft						KEYWORD2
+backLeft						KEYWORD2
+getFrontSideRight				KEYWORD2
+getFrontSideLeft				KEYWORD2
+getFrontRight					KEYWORD2
+getFrontLeft					KEYWORD2
+getFrontCenter					KEYWORD2
+getBackLeft						KEYWORD2
+getBackRight					KEYWORD2
+getDistance						KEYWORD2
+stopMotors						KEYWORD2
+statusMotor						KEYWORD2
+vMotion							KEYWORD2
+vIR								KEYWORD2
+vShowIR							KEYWORD2
+vShowRobot						KEYWORD2
+nUltrasonicCm					KEYWORD2
+
+########################################
+# Constants (LITERAL2)
+########################################
+
+M_RIGHT_FRONT_1					LITERAL2
+M_RIGHT_FRONT_2					LITERAL2
+M_LEFT_FRONT_1					LITERAL2
+M_LEFT_FRONT_2					LITERAL2
+M_LEFT_BACK_1					LITERAL2
+M_LEFT_BACK_2					LITERAL2
+M_RIGHT_BACK_1					LITERAL2
+M_RIGHT_BACK_2					LITERAL2
+FORWARD							LITERAL2
+BACKWARD       			        LITERAL2
+INFRA_1       			        LITERAL2
+INFRA_2       			        LITERAL2
+INFRA_3       			        LITERAL2
+INFRA_4       			        LITERAL2
+INFRA_5       			        LITERAL2
+INFRA_6       			        LITERAL2
+INFRA_7       			        LITERAL2
+BUTTON_START  			        LITERAL2
+VERSION       			        LITERAL2
+TRIGGER_PIN  			        LITERAL2
+ECHO_PIN  				        LITERAL2
