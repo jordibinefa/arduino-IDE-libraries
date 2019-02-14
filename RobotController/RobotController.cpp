@@ -179,11 +179,18 @@ void vIR(bool *bBR,bool *bBL,bool *bFSL,bool *bFL,bool *bFC,bool *bFR,bool *bFSR
 	*bFSR = (byIr >> 6) & 0x01;
 }
 
+void gotoxy(int x,int y){
+	char sz[12];
+	
+    sprintf(sz,"%c[%d;%df",0x1B,y,x);Serial.println(sz);
+}
+
 void vShowIR(bool bBR,bool bBL,bool bFSL,bool bFL,bool bFC,bool bFR,bool bFSR){
   char sz[12];int i;
 
-  for(i = 0; i < 5; i++)
-    Serial.println();
+  //for(i = 0; i < 5; i++)
+  //  Serial.println();
+  gotoxy(1,2);
   Serial.println(" /----/^\\----\\");
   sprintf(sz,    " |%c  %c %c %c  %c|",bFSL?'W':'B',bFL?'W':'B',bFC?'W':'B',bFR?'W':'B',bFSR?'W':'B');Serial.println(sz);
   Serial.println("[ ]    ^    [ ]");
@@ -204,8 +211,9 @@ void vShowRobot(bool bBR,bool bBL,bool bFSL,bool bFL,bool bFC,bool bFR,bool bFSR
   char cBR = (_motorStatus & 0x01) ? '^' : (_motorStatus & 0x02) ? 'v' : ' ';
   char cBL = (_motorStatus & 0x08) ? '^' : (_motorStatus & 0x04) ? 'v' : ' ';
   
-  for(i = 0; i < 5; i++)
-    Serial.println();
+  //for(i = 0; i < 5; i++)
+  //  Serial.println();
+  gotoxy(1,2);
   Serial.print("    { "); Serial.print(nUsDist,DEC);Serial.println(" cm }");
   Serial.println(" /----/^\\----\\");
   sprintf(sz,    " |%c  %c %c %c  %c|",bFSL?'W':'B',bFL?'W':'B',bFC?'W':'B',bFR?'W':'B',bFSR?'W':'B');Serial.println(sz);
